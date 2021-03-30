@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: #56CCF2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.box {
+  width: 420px;
+  height: 300px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.bar1 {
+  width: 90px;
+  height: 180px;
+  animation-name: bar1;
+  animation-duration: 3s
+}
+
+.bar2 {
+  width: 90px;
+  height: 120px;
+  animation-name: bar2;
+  animation-duration: 3s
+}
+
+.bar3 {
+  width: 90px;
+  height: 280px;
+  animation-name: bar3;
+  animation-duration: 3s
+}
+
+.bar4 {
+  width: 90px;
+  height: 200px;
+  animation-name: bar4;
+  animation-duration: 3s
+}
+
+.color {
+  background: #ffffff;
+  background: linear-gradient(to bottom, #f8feff, #e5f9ff, #bdf0ff, #a3e8ff);
+}
+
+@keyframes bar1 {
+  0%   {height: 0px;}
+  100% {height: 180px;}
+}
+
+@keyframes bar2 {
+  0%   {height: 0px;}
+  100% {height: 120px;}
+}
+
+@keyframes bar3 {
+  0%   {height: 0px;}
+  100% {height: 280px;}
+}
+
+@keyframes bar4 {
+  0%   {height: 0px;}
+  100% {height: 200px;}
+}
